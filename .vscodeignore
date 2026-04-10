@@ -1,0 +1,9 @@
+.gitignore
+
+.vscode
+.github
+
+.vscodeignore
+package-lock.json
+
+media/**/*.original.png

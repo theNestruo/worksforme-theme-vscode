@@ -1,0 +1,32 @@
+{
+	"publisher": "theNestruo",
+	"name": "worksforme-theme",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.81.0"
+	},
+	"displayName": "Works for Me",
+	"description": "A theme that works for me",
+	"categories": [
+		"Themes"
+	],
+	"license": "LGPL-3.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/theNestruo/worksforme-theme-vscode.git"
+	},
+	"author": {
+		"email": "theNestruo@gmail.com",
+		"name": "Néstor Sancho",
+		"url": "https://thenestruo.github.io/"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Works for Me",
+				"uiTheme": "vs-dark",
+				"path": "./themes/worksforme.color-theme.json"
+			}
+		]
+	}
+}

@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // Allow comments in themes JSON
+	"files.associations": {
+		"/themes/*.json": "jsonc"
+	},
+
+	// No AI
+	"chat.disableAIFeatures": true,
+}
