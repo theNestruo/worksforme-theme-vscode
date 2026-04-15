@@ -169,7 +169,6 @@
 			"name": "Keywords",
 			"scope": [
 				"keyword",
-				"constant.language",
 				"storage.type",
 				"storage.modifier",
 				// (not not keywords)
@@ -218,8 +217,9 @@
 			}
 		},
 		{
-			"name": "Special keywords",
+			"name": "Special keywords: language constants and variables",
 			"scope": [
+				"constant.language",
 				"variable.language",
 			],
 			"settings": {
