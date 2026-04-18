@@ -1,9 +1,6 @@
-.gitignore
-
-.vscode
 .github
-
+.vscode
+.gitignore
 .vscodeignore
 package-lock.json
-
-media/**/*.original.png
+*.vsix
