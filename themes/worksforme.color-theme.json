@@ -223,7 +223,7 @@
 				"variable.language",
 			],
 			"settings": {
-				"foreground": "#b5cea8", // ("constant.numeric" from "Dark (Visual Studio)"))
+				"foreground": "#b5cea8", // ("constant.numeric" from "Dark (Visual Studio)")
 				"fontStyle": "italic"
 			}
 		},
