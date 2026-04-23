@@ -384,6 +384,8 @@
 				// [Typescript]
 				"source.ts keyword.operator.optional.ts", // ?:
 				"source.ts keyword.operator.spread.ts", // ...
+				"source.ts keyword.operator.type.ts", // & |
+				"source.ts punctuation.accessor.optional.ts", // ?.
 			],
 			"settings": {
 				"foreground": "#b4b4b4", // (halfway between editor.foreground and comment)
