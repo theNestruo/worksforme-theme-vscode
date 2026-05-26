@@ -1,9 +1,9 @@
 {
 	"publisher": "theNestruo",
 	"name": "worksforme-theme",
-	"version": "1.2.0",
+	"version": "1.3.0",
 	"engines": {
-		"vscode": "^1.109.0"
+		"vscode": "^1.80.0"
 	},
 	"displayName": "Works for Me",
 	"description": "A theme that works for me",

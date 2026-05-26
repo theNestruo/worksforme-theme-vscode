@@ -1,3 +1,7 @@
+## 1.3.0
+
+- Typescript JSX
+
 ## 1.2.0
 
 - "keyword.operator.type.ts" and "punctuation.accesor.optional.ts" dimmed

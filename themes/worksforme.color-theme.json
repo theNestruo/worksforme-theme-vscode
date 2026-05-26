@@ -210,6 +210,9 @@
 				// [Typescript]
 				"source.ts support.type.builtin",
 				"source.ts support.type.primitive",
+				// [Typescriptreact]
+				"source.tsx support.type.builtin",
+				"source.tsx support.type.primitive",
 			],
 			"settings": {
 				"foreground": "#569cd6", // ("keyword" from "Dark (Visual Studio)")
@@ -223,7 +226,8 @@
 				"variable.language",
 			],
 			"settings": {
-				"foreground": "#b5cea8", // ("constant.numeric" from "Dark (Visual Studio)")
+				"foreground": "#569cd6", // ("keyword" from "Dark (Visual Studio)")
+				// "foreground": "#b5cea8", // ("constant.numeric" from "Dark (Visual Studio)")
 				"fontStyle": "italic"
 			}
 		},
@@ -283,14 +287,41 @@
 				// [Typescript]
 				"source.ts string.template punctuation.definition.template-expression",
 				"source.ts string.template meta.template.expression",
+				"source.ts string.template meta.template.expression keyword.operator", // (fixes code)
+				"source.ts string.template meta.template.expression keyword.operator.ternary", // (fixes code)
 				"source.ts string.regexp keyword.control",
 				"source.ts string.regexp keyword.operator",
 				"source.ts string.regexp punctuation.definition.character-class",
 				"source.ts string.regexp punctuation.definition.group",
+				// [Typescriptreact]
+				"source.tsx string.template punctuation.definition.template-expression",
+				"source.tsx string.template meta.template.expression",
+				"source.tsx string.template meta.template.expression keyword.operator", // (fixes code)
+				"source.tsx string.template meta.template.expression keyword.operator.ternary", // (fixes code)
+				"source.tsx string.regexp keyword.control",
+				"source.tsx string.regexp keyword.operator",
+				"source.tsx string.regexp punctuation.definition.character-class",
+				"source.tsx string.regexp punctuation.definition.group",
 			],
 			"settings": {
 				"foreground": "#ce9178", // ("string" from "Dark (Visual Studio)"))
 				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Dimmed content within literals: code within string templates",
+			"scope": [
+				// Code -------------------------------------------------------
+				// [Typescript]
+				"source.ts string.template meta.template.expression constant.language",
+				"source.ts string.template meta.template.expression variable.language",
+				// [Typescriptreact]
+				"source.tsx string.template meta.template.expression constant.language",
+				"source.tsx string.template meta.template.expression variable.language",
+			],
+			"settings": {
+				"foreground": "#ce9178", // (halfway between editor.foreground and comment)
+				"fontStyle": "italic"
 			}
 		},
 
@@ -349,6 +380,9 @@
 				// [Typescript]
 				"source.ts entity.name.type.module",
 				"source.ts meta.type.parameters",
+				// [Typescriptreact]
+				"source.tsx entity.name.type.module",
+				"source.tsx meta.type.parameters",
 			],
 			"settings": {
 				"foreground": "#b4b4b4", // (halfway between editor.foreground and comment)
@@ -386,6 +420,14 @@
 				"source.ts keyword.operator.spread.ts", // ...
 				"source.ts keyword.operator.type.ts", // & |
 				"source.ts punctuation.accessor.optional.ts", // ?.
+				// [Typescriptreact]
+				"source.tsx meta.tag meta.tag.attributes entity.other.attribute-name",
+				"source.tsx meta.tag punctuation",
+				"source.tsx meta.tag keyword.operator.assignment",
+				"source.tsx keyword.operator.optional.tsx", // ?:
+				"source.tsx keyword.operator.spread.tsx", // ...
+				"source.tsx keyword.operator.type.tsx", // & |
+				"source.tsx punctuation.accessor.optional.tsx", // ?.
 			],
 			"settings": {
 				"foreground": "#b4b4b4", // (halfway between editor.foreground and comment)
